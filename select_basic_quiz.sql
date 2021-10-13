@@ -1,6 +1,6 @@
 --1. Select the code which produces this table
 --    name	         population
---    Bahrain	          1234571
+--    Bahrain	        1234571
 --    Swaziland	        1220000
 --    Timor-Leste	    1066409
 
@@ -45,9 +45,9 @@ WHERE name LIKE '%a' OR name LIKE '%l';
 --5. Here are the first few rows of the world table:
 --name	             region	          area	       population	              gdp
 --Afghanistan	   South Asia         652225	         26000000	
---Albania	           Europe	         28728	          3200000	        6656000000
---Algeria	      Middle East	       2400000	         32900000	       75012000000
---Andorra	           Europe	           468	            64000	
+--Albania	           Europe	       28728	          3200000	        6656000000
+--Algeria	      Middle East	     2400000	         32900000	       75012000000
+--Andorra	           Europe	         468	            64000	
 --...
 --Pick the result you would obtain from this code:
 --SELECT name, area*2 FROM world WHERE population = 64000
@@ -70,7 +70,6 @@ WHERE area > 50000 AND population < 10000000;
 SELECT name, population/area
 FROM world
 WHERE name IN ('China', 'Nigeria', 'France', 'Australia');
-
 
 
 
