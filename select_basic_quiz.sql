@@ -2,7 +2,7 @@
 --    name	         population
 --    Bahrain	          1234571
 --    Swaziland	        1220000
---    Timor-Leste	      1066409
+--    Timor-Leste	    1066409
 
 SELECT name, population
 FROM world
